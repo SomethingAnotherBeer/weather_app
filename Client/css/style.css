@@ -1,0 +1,56 @@
+body
+{
+	padding: 90px 0;
+}
+
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul, li
+{
+	list-style-type: none;
+}
+
+
+.container
+{
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+
+
+
+.base-menu
+{
+	display: flex;
+}
+
+.base-menu li:not(:first-child)
+{
+	margin-left: 15px;
+}
+
+
+.base-menu li button
+{
+	background: none;
+	padding: 7px 5px;
+	border: 1px solid #0D2026;
+	border-radius: 3px;
+	transition: .3s all linear;
+	color: #0D2026;
+	cursor:  pointer;
+
+}		
+
+
+.base-menu li button:hover
+{
+	background: #0D2026;
+	color: #ffffff;
+}
